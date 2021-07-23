@@ -1,0 +1,14 @@
+{
+        "args": {}, 
+        "headers": {
+          "Accept": "*/*", 
+          "Cookie": "", 
+          "Host": "httpbin.org", 
+          "Syn-Fingerprint": "hyperOnTop", 
+          "Syn-User-Identifier": "suckMyCock", 
+          "User-Agent": "synx/v2.5.16c", 
+          "X-Amzn-Trace-Id": "Root=1-6088ef1a-534786180adf490d46cedb49"
+        }, 
+        "origin": "104.153.108.192", 
+        "url": "https://httpbin.org/get"
+}
