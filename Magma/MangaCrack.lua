@@ -27,7 +27,7 @@ SynReq = hookfunction(syn.request, function(T)
 		end
 		if T.Url:find("httpbin") then
             print("Spoofed info from httpbin")
-			T.Url = "https://hypernite.xyz/Backup/MagmaHub/httpbin_backup"
+			T.Url = "https://raw.githubusercontent.com/NotShanks/backups/main/Magma/httpbin"
 		end
 		if T.Url:find("webhook") then
             print("No logging here buddy")
@@ -66,4 +66,4 @@ spawn(function()
        end
 end)
 
-loadstring(game:HttpGet("https://hypernite.xyz/Backup/MagmaHub/host_backup.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/NotShanks/backups/main/Magma/host.lua"))()
